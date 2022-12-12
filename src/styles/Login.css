@@ -1,0 +1,31 @@
+.login
+{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.login__container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container img
+{
+object-fit: contain;
+height: 200px;
+margin-bottom: 150px;
+}
+
+
+.button
+{
+    font-size: 29px !important;
+    background-color: rgb(30, 30, 196) !important;
+    color: #fff !important;
+    height: 90px !important;
+    cursor: pointer;
+    border-radius: 15px !important;
+}
